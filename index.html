@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links -->
+    <link rel="shortcut icon" href="img/logoCESARTransp.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/bc48bd619e.js" crossorigin="anonymous"></script>
+
+    <title>Hexadecimal - Grupo 6</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logoCESARTransp.webp" alt=""></a>
+        <nav>
+            <a href="participantes.html">Participantes</a>
+            <a href="#conteudo">Conteúdo</a>
+            <span>|</span>
+            <a href="#forms-feedback">Feedback</a>
+        </nav>
+    </header>
+
+    <section class="section-inicio">
+        <img src="img/undraw_mathematics_-4-otb.svg" alt="">
+        
+        <div class="section-inicio-texto">
+            <h1>Desvendando as aplicações do Sistema Hexadecimal</h1>
+            <a href="#conteudo">Inicie a Leitura</a>
+        </div>
+
+        <div class="section-inicio-cores">
+            <div class="st-ic-cores-primeiro">
+                <span class="st-ic-cores-circulo" id="st-ic-cores-circulo1"></span>
+                <span class="st-ic-cores-circulo" id="st-ic-cores-circulo2"></span>
+                <span class="st-ic-cores-circulo" id="st-ic-cores-circulo3"></span>
+            </div>
+        </div>
+    </section>
+
+<hr>
+
+    <section class="section-conteudo" id="conteudo">
+        <div class="section-conteudo-introducao">
+            <div class="st-ct-introducao-texto">
+                <h1>Introdução ao Hexadecimal</h1>
+                <p> ㅤㅤㅤㅤO sistema de numeração posicional em base 16, conhecido como hexadecimal, emprega 16 símbolos: 0-9 e as letras A-F, representando os valores decimais de 0 a 15. O termo "hexadecimal" deriva de "hexa", que significa "seis", e "deci", que denota "dez", refletindo sua base 16. <br>
+
+                <br>ㅤㅤㅤㅤCada dígito hexadecimal corresponde a quatro bits de dados binários, portanto, cada número hexadecimal pode ser facilmente convertido em um grupo de bits binários e vice-versa. Tornando-o útil em computação e programação. <br>
+
+                <br>ㅤㅤㅤㅤOs programadores utilizam o sistema hexadecimal porque é mais conveniente converter números hexadecimais para binários. Comparado aos números decimais, os números hexadecimais facilitam a identificação dos bits correspondentes, tornando o processo de conversão mais simples e direto.
+                </p>
+            </div>
+
+            <img src="img/undraw_teaching_re_g7e3.svg" alt="" id="st-ct-introducao-img">
+        </div>
+
+        <div class="section-conteudo-base">
+            <img src="img/undraw_tutorial_video_re_wepc.svg" alt="" id="st-ct-base-img">
+
+            <div class="st-ct-base-texto">
+                <h1>Base Hexadecimal</h1>
+                <p> ㅤㅤㅤㅤO sistema hexadecimal tem como uma de suas principais características a de possuir uma base 16. Isso significa que, em vez de contar até 9 e depois aumentar o número de dígitos, como no sistema decimal, o sistema hexadecimal conta até 15 antes de aumentar o número de dígitos.<br>
+    
+                <br>ㅤㅤㅤㅤNo sistema hexadecimal, os 9 primeiros dígitos, são representados pelos seus respectivos no sistema decimal (1,2,3...8,9) e depois, os dígitos de 10 a 15 são representados pelas letras de A a F. Por exemplo: Em hexadecimal, o número 10 é representado por A, 11 por B, 12 por C, e assim por diante até 15, que é representado por F.<br>
+
+                <br>ㅤㅤㅤㅤAtravés da base 16, o sistema hexadecimal pode representar números maiores em menos dígitos do que o sistema decimal. Por exemplo, o número decimal 255 é representado como FF em hexadecimal, economizando um dígito, fator esse, que é crucial quando se trata de computadores.
+                </p>
+            </div>
+        </div>
+        
+        <div class="section-conteudo-representacao">
+            <h1>Representação Numérica</h1>
+
+            <div class="st-ct-representacao-tabela">
+                <table>
+                    <tr>
+                        <th>Decimal</th>
+                        <th>Hexadecimal</th>
+                        <th>Binário</th>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0000</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0001</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>0010</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>0011</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>0100</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>5</td>
+                        <td>0101</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>0110</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>0111</td>
+                    </tr>
+                </table>
+                
+                <table>
+                    <tr>
+                        <th>Decimal</th>
+                        <th>Hexadecimal</th>
+                        <th>Binário</th>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>8</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>9</td>
+                        <td>1001</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>A</td>
+                        <td>1010</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>B</td>
+                        <td>1011</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>C</td>
+                        <td>1100</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>D</td>
+                        <td>1101</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>E</td>
+                        <td>1110</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>F</td>
+                        <td>1111</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="section-conteudo-computacao">
+            <div class="st-ct-computacao-infos">
+                <p> ㅤㅤㅤㅤEm sistemas computacionais, a memória é frequentemente endereçada em números hexadecimais devido à natureza das potências de 2, que se alinham perfeitamente com a base 16 do sistema hexadecimal. Além disso, cores em computação são representadas no formato RGB (Red, Green, Blue), onde cada componente de cor é um número de 0 a 255 em decimal, mas são frequentemente representados em hexadecimal por sua compacidade e legibilidade.<br>
+    
+                <br>ㅤㅤㅤㅤNa programação de baixo nível e arquitetura de computadores, é comum referir-se a bytes individuais ou palavras de memória usando números hexadecimais para uma representação clara e precisa dos dados. Em linguagens de programação que lidam com processamento de texto e formatação de saída, sequências de escape começando com um caractere de escape seguido por um número hexadecimal são comuns, permitindo a inclusão de caracteres especiais em strings de texto.<br>
+
+                <br>ㅤㅤㅤㅤA base 16 do sistema hexadecimal o torna particularmente útil na computação, pois é facilmente convertido em binário, sistema esse, que é fundamental para os computadores. Dessa forma, Cada dígito hexadecimal corresponde a um grupo de 4 bits no sistema binário, os chamados "Nibbles" ou "Nybles", facilitando a representação de valores binários em um formato mais compacto e legível.
+                </p>
+            </div>
+
+            <div class="st-ct-computacao-infos">
+                <h1>Utilização na Computação</h1>
+                <img src="img/undraw_my_password_re_ydq7.svg" alt="" id="st-ct-computacao-img">
+            </div>
+        </div>
+
+        <div class="section-conteudo-converter">
+            <h1>Conversão entre Hexadecimal e Decimal</h1>
+
+            <div class="st-ct-converter-imagens">
+                <div class="st-ct-cr-imagens-decimal">
+                    <img src="img/decimalParaHexa.png" alt="">
+                </div>
+
+                <div class="st-ct-cr-imagens-hexadecimal">
+                    <img src="img/hexaParaDecimal.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </section> 
+
+    <footer>
+        <div class="footer-conteudo">
+            <img src="img/logoCESARTransp.webp" alt="" id="footer-logo">
+
+            <div class="footer-conteudo-infos">
+                <div class="footer-conteudo-redes">
+                    <h1>Redes Sociais</h1>
+                    <p><a href="https://docs.google.com/document/d/1UE3TqucjPX-KTOO5-ny0uh31SdLBMHxAuM9WK7ltMt8/edit#heading=h.q6yhhncyezsc" target="_blank" class="ft-ct-redes-logo"><i class="fa-solid fa-file"></i></a> Documentação</p>
+                    <p><a href="https://github.com/victorb-s/CESAR-AT-Hexadecimal" target="_blank" class="ft-ct-redes-logo"><i class="fa-solid fa-code-branch"></i></a> Github</p>
+                    <p><a href="https://www.cesar.school/" target="_blank" class="ft-ct-redes-logo"><i class="fa-solid fa-building"></i></a> Empresa</p>
+                </div>
+
+                <form action="" method="get" id="forms-feedback">
+                    <fieldset>
+                        <legend>Feedback</legend>
+
+                        <div class="forms-feedback-part">
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome" placeholder="Seu nome">
+                        </div>
+
+                        <div class="forms-feedback-part">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Seu email">
+                        </div>
+
+                        <div class="forms-feedback-part">
+                            <label for="feedback">Feedback:</label>
+                            <textarea name="feedback" id="feedback" cols="" rows="5" placeholder=""></textarea>
+                        </div>
+
+                        <div class="forms-feedback-enviar">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-direitos">
+            <span></span>
+
+            <div class="footer-direitos-texto">
+                <p>©️ 2024 Cesar School</p>
+                <p>Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
