@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links -->
+    <link rel="shortcut icon" href="img/logoCESARTransp.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <script src="https://kit.fontawesome.com/bc48bd619e.js" crossorigin="anonymous"></script>
+
+    <title>Hexadecimal - Grupo 6</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logoCESARTransp.webp" alt=""></a>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="participantes.html">Participantes</a>
+            <a href="form.html">Quiz</a>
+            <span>|</span>
+            <a href="#forms-feedback">Feedback</a>
+        </nav>
+    </header>
+
+    <section class="section-quiz">
+        <h1>Vamos Praticar?</h1>
+        <form id="form-quiz"></form>
+
+        <button class="botao" onclick="Enviar_Quiz()">Enviar</button>
+
+        <div id="feedback_div" class="feedback_div"></div>
+        <script src="script/quiz.js"></script>
+    </section>
+
+    <footer>
+        <div class="footer-conteudo">
+            <img src="img/logoCESARTransp.webp" alt="" id="footer-logo">
+
+            <div class="footer-conteudo-infos">
+                <div class="footer-conteudo-redes">
+                    <h1>Redes Sociais</h1>
+                    <p><a href="https://docs.google.com/document/d/1UE3TqucjPX-KTOO5-ny0uh31SdLBMHxAuM9WK7ltMt8/edit#heading=h.q6yhhncyezsc" target="_blank" class="ft-ct-redes-logo"><i class="fa-solid fa-file"></i></a> Documentação</p>
+                    <p><a href="https://github.com/victorb-s/CESAR-AT-Hexadecimal" target="_blank" class="ft-ct-redes-logo"><i class="fa-solid fa-code-branch"></i></a> Github</p>
+                    <p><a href="https://www.cesar.school/" target="_blank" class="ft-ct-redes-logo"><i class="fa-solid fa-building"></i></a> Empresa</p>
+                </div>
+
+                <form action="" method="get" id="forms-feedback">
+                    <fieldset>
+                        <legend>Feedback</legend>
+
+                        <div class="forms-feedback-part">
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome" placeholder="Seu nome">
+                        </div>
+
+                        <div class="forms-feedback-part">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Seu email">
+                        </div>
+
+                        <div class="forms-feedback-part">
+                            <label for="feedback">Feedback:</label>
+                            <textarea name="feedback" id="feedback" cols="" rows="5" placeholder=""></textarea>
+                        </div>
+
+                        <div class="forms-feedback-enviar">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-direitos">
+            <span></span>
+
+            <div class="footer-direitos-texto">
+                <p>©️ 2024 Cesar School</p>
+                <p>Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
