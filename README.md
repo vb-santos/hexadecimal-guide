@@ -1,11 +1,12 @@
 # 📒 Documentação do Projeto
 
 <p align="justify">
-  - Projeto proposto pela professora Rafaella da cadeira de Introdução à Computação da CESAR School, nesta atividade deveríamos desenvolver um site informativo que explicasse acerca do sistema Hexadecimal, explicando tópicos como o que é o sistema, como utilizar a base hexadecimal, a representação numérica do sistema hexa, como ele é utilizado na computação, um guia prático de como é realizada a conversão do decimal (base 10) para o hexadecimal (base 16) e um formulário de feedback.
+Projeto proposto pela professora Rafaella da cadeira de Introdução à Computação da CESAR School, nesta atividade deveríamos desenvolver um site informativo que explicasse acerca do sistema Hexadecimal, explicando tópicos como o que é o sistema, como utilizar a base hexadecimal, a representação numérica do sistema hexa, como ele é utilizado na computação, um guia prático de como é realizada a conversão do decimal (base 10) para o hexadecimal (base 16) e um formulário de feedback.
 
-  A atividade foi proposta para grupos de 8 a 10 pessoas, e no meu grupo fiquei responsável pela produção estética do site e pela codagem, decidi seguir a paleta base da CESAR, utilizando laranja e azul como cores base do site.
+A atividade foi proposta para grupos de 8 a 10 pessoas, e no meu grupo fiquei responsável pela produção estética do site e pela codagem, decidi seguir a paleta base da CESAR, utilizando laranja e azul como cores base do site.
 
-  **EM MANUTENÇAÕ**
+Como prática de JavaScript, desenvolvemos uma parte do site com um quiz funcional sobre o tema e informa a quantidade de acertos do usuário.
+
 </p>
 <br>
 
